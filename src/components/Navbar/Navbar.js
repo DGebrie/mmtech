@@ -65,7 +65,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to="/">
               <NavIcon />
-              MM Tech
+              MM Digital
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

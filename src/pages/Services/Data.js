@@ -2,7 +2,7 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Exclusive Access",
+  topLine: "",
   headline: "Digital Visibility Improvment",
   description:
     "Experts establishing social media accounts to broaden customer reach",
@@ -21,7 +21,7 @@ export const homeObjTwo = {
   description:
     "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   buttonLabel: "Learn More",
-  imgStart: "",
+  imgStart: "true",
   img: require("../../images/svg-1.svg"),
   alt: "Vault",
 };
@@ -30,9 +30,10 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Easy Setup",
-  headline: "Super fast and simple onboarding process",
-  description: "Quick set up, only requiring minimal information.",
+  topLine: "Exclusive Access",
+  headline: "Marketing Experts",
+  description:
+    "Drive targeted traffic to your business, leading to increased brand awareness and sales.",
   buttonLabel: "Start Now",
   imgStart: "start",
   img: require("../../images/svg-1.svg"),

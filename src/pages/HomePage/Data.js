@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: "MM Tech Solutions",
+  topLine: "MM Digital Solutions",
   headline: "Take your digital footprint to the next level",
   description:
     "We assist businesses in building and enhancing their online presence.",
@@ -40,12 +40,12 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: "- Spiral AV",
   headline:
-    "'MM Tech helped me increase my revenue by over 3X in less than 3 months!'",
+    "'MM Digital helped me increase my revenue by over 3X in less than 3 months!'",
   description:
     "Their team is wonderful! I can't believe I didn't start working with them earlier.",
   buttonLabel: "View Projects",
   imgStart: "start",
-  img: require("../../images/web_design.png"),
+  img: require("../../images/web-design.svg"),
   alt: "Vault",
   start: "true",
 };
