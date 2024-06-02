@@ -1,14 +1,14 @@
 import React from "react";
 import { InfoSection } from "../../components";
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from "./Data";
+import Projects from "../../components/Projects/Projects";
+import { productOne, productTwo, productThree } from "./Data";
 
 function Products() {
   return (
     <>
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjFour} />
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...productOne} />
+      <InfoSection {...productTwo} />
+      <InfoSection {...productThree} />
     </>
   );
 }

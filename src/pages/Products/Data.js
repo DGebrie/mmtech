@@ -1,75 +1,62 @@
 import { GiCutDiamond, GiRock } from "react-icons/gi";
 
-export const homeObjOne = {
+export const productOne = {
   lightBg: false,
   lightText: true,
   lightTopLine: true,
   lightTextDesc: true,
-  topLine: "View Our Products",
-  headline: "Shop through our catalog of products",
-  description: "Diamond, Gold, Starter",
-  buttonLabel: "Shop Now",
-  imgStart: "",
-  img: require("../../images/svg-1.svg"),
-  alt: "Credit Card",
+  // topLine: "View Our Products",
+  headline: "Why MM Digital?",
+  description: "Our beneficial statement",
+  // buttonLabel: "Shop Now",
+  // imgStart: "",
+  // img: require("../../images/svg-1.svg"),
+  // alt: "Credit Card",
 };
 
-export const homeObjTwo = {
+export const productTwo = {
   lightBg: true,
   lightText: false,
-  lightTopLine: false,
-  lightTextDesc: false,
+  lightTopLine: true,
+  lightTextDesc: true,
   topLine: "*Best Offer",
-  headline: "Diamond Membership",
-  description:
-    "Ensure comprehensive digital solutions, from app and website creation to social media consultation, all designed to elevate your online presence and drive business growth.",
+  id: "testimonial",
+  headline: "Quote from business client plus link to their site/name",
+
+  description: "",
   list: [
     {
       id: 1,
-      text: "Mobile Application",
-    },
-    {
-      id: 2,
-      text: "Fully Functional Webpage",
-    },
-    {
-      id: 3,
-      text: "Social Media Creation and Consultation",
-    },
-    {
-      id: 4,
-      text: "Fully Functional Webpage",
+      text: "",
     },
   ],
-  buttonLabel: "Learn More",
+  buttonLabel: "View Site",
   imgStart: "start",
-  img: require("../../images/diamant.svg"),
+  // img: require("../../images/diamant.svg"), Picture of business or site
   alt: "Vault",
 };
 
-export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Easy Setup",
-  headline: "Starter Pack",
-  description: "Quick set up, only requiring minimal information.",
-  buttonLabel: "Start Now",
-  imgStart: "start",
-  img: require("../../images/fistbump.svg"),
-  alt: "Vault",
-};
-
-export const homeObjFour = {
+export const productThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "DATA ANALYTICS",
-  headline: "Gold Membership",
-  description:
-    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
-  buttonLabel: "Sign Up Now",
+  isContactForm: true,
+  topLine: "Contact Form",
+  headline: "Contact Us",
+  // for businesses w existing sites/social media/apps/etc
+  // starting price
+  // additional +$$.$$ depending on service needed (up to 3 different services)
+  id: "contact-us-form",
+  description: "",
+  list: [
+    {
+      id: 1,
+      text: "",
+    },
+  ],
+  buttonLabel: "",
   imgStart: "start",
-  img: require("../../images/whitegoldbar.svg"),
-  alt: "Vault",
+  img: require("../../images/contact-info.png"),
+  alt: "",
+  contactSubheading: "Contact Us",
 };

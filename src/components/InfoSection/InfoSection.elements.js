@@ -1,5 +1,45 @@
 import styled from "styled-components";
 
+export const ContactSec = styled.div`
+  color: #fff;
+  padding: 160px 0;
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+`;
+
+export const ContactForm = styled.form``;
+
+export const Form = styled.form`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  // @media screen and (max-width: 820px) {
+  //   flex-direction: column;
+  //   width: 80%;
+  // }
+`;
+
+export const FormInput = styled.input`
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border: 1px solid #fff;
+
+  &::placeholder {
+    color: #242424;
+  }
+
+  @media screen and (max-width: 820px) {
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+`;
+
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
@@ -93,8 +133,9 @@ export const Subtitle = styled.p`
 `;
 
 export const List = styled.ul`
+  list-style-position: inside;
   max-width: 440px;
-  ]font-size: 18px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 35px;
 `;
@@ -105,4 +146,27 @@ export const ListItems = styled.li`
   font-size: 18px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+`;
+
+export const FooterSubscription = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+`;
+
+export const FooterSubHeading = styled.p`
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 24px;
+  font-size: 24px;
+`;
+
+export const FooterSubText = styled.p`
+  margin-bottom: 24px;
+  font-size: 20px;
 `;

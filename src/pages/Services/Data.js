@@ -1,12 +1,14 @@
+import { GiOldKing } from "react-icons/gi";
+
 export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "",
-  headline: "Digital Visibility Improvment",
+  topLine: "Services",
+  headline: "Digital Presence to New Heights",
   description:
-    "Experts establishing social media accounts to broaden customer reach",
-  buttonLabel: "Get Started",
+    "<i>*Customizable solutions, with options for both monthly subscriptions and one-time purchases<i>",
+  // buttonLabel: "Get Started",
   imgStart: "",
   img: require("../../images/svg-1.svg"),
   alt: "Credit Card",
@@ -21,7 +23,7 @@ export const homeObjTwo = {
   description:
     "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   buttonLabel: "Learn More",
-  imgStart: "true",
+  imgStart: "",
   img: require("../../images/svg-1.svg"),
   alt: "Vault",
 };
@@ -51,5 +53,126 @@ export const homeObjFour = {
   buttonLabel: "Sign Up Now",
   imgStart: "start",
   img: require("../../images/svg-1.svg"),
+  alt: "Vault",
+};
+
+export const productOne = {
+  lightBg: false,
+  lightText: true,
+  lightTopLine: true,
+  lightTextDesc: true,
+  topLine: "View Our Products",
+  headline: "Shop through our catalog of products",
+  description: "Diamond, Gold, Starter",
+  buttonLabel: "Shop Now",
+
+  img: require("../../images/svg-1.svg"),
+  alt: "Credit Card",
+};
+
+export const productTwo = {
+  lightBg: true,
+  lightText: false,
+  lightTopLine: false,
+  lightTextDesc: false,
+  topLine: "<i>*Monthly<i>",
+  headline: "Diamond Membership",
+  // for businesses w existing sites/social media/apps/etc
+  // starting price
+  // additional +$$.$$ depending on service needed (up to 5 different services)
+  description:
+    "Ensure comprehensive digital solutions, from app and website creation to social media consultation, all designed to elevate your online presence and drive business growth.",
+  list: [
+    {
+      id: 1,
+      text: "Mobile Application",
+    },
+    {
+      id: 2,
+      text: "Fully Functional Webpage",
+    },
+    {
+      id: 3,
+      text: "Social Media Creation and Consultation",
+    },
+    {
+      id: 4,
+      text: "Fully Functional Webpage",
+    },
+  ],
+  buttonLabel: "Learn More",
+  imgStart: "start",
+  img: require("../../images/diamant.svg"),
+  alt: "Vault",
+};
+
+export const productThree = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "<i>*Individually Purchased</i>",
+  headline: "Starter Pack",
+  id: "spiral-av",
+  // First option ..creation of sites/social media/apps/etc
+  // starting price
+  // +$$.$$ (depending on service needed)
+  description: "Quick set up, only requiring minimal information.",
+  list: [
+    {
+      id: 1,
+      text: "Mobile Application",
+    },
+    {
+      id: 2,
+      text: "Fully Functional Webpage",
+    },
+    {
+      id: 3,
+      text: "Social Media Creation and Consultation",
+    },
+    {
+      id: 4,
+      text: "Fully Functional Webpage",
+    },
+  ],
+  buttonLabel: "Start Now",
+  imgStart: "start",
+  img: require("../../images/fistbump.svg"),
+  alt: "Vault",
+};
+
+export const productFour = {
+  id: "gold",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "<i>*Monthly<i>",
+  headline: "Gold Membership",
+  // for businesses w existing sites/social media/apps/etc
+  // starting price
+  // additional +$$.$$ depending on service needed (up to 3 different services)
+  description:
+    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
+  list: [
+    {
+      id: 1,
+      text: "Mobile Application",
+    },
+    {
+      id: 2,
+      text: "Fully Functional Webpage",
+    },
+    {
+      id: 3,
+      text: "Social Media Creation and Consultation",
+    },
+    {
+      id: 4,
+      text: "Fully Functional Webpage",
+    },
+  ],
+  buttonLabel: "Sign Up Now",
+  // imgStart: "start",
+  img: require("../../images/whitegoldbar.svg"),
   alt: "Vault",
 };

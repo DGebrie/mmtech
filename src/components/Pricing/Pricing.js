@@ -27,7 +27,7 @@ const Pricing = () => {
         <PricingWrapper>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
-            <PricingCard to="/sign-up">
+            <PricingCard to="/services/#starter">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
@@ -44,7 +44,7 @@ const Pricing = () => {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to="/sign-up">
+            <PricingCard to="/services/#gold">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
@@ -67,7 +67,7 @@ const Pricing = () => {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to="/sign-up">
+            <PricingCard to="/services/#diamond">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
